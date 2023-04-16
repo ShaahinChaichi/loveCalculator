@@ -40,5 +40,12 @@ name_sum_o = name1_o + name2_o
 name_sum_v = name1_v + name2_v
 name_sum_e2 = name1_e2 + name2_e2
 
-print(f"number of t = {name_sum_t},number of r = {name_sum_r},"
-      f"number of u = {name_sum_u},number of e1 = {name_sum_e1}")
+print(f"number of t = {name_sum_t},number of r = {name_sum_r} \n"
+      f"number of u = {name_sum_u},number of e1 = {name_sum_e1}\n",
+      f"number of l = {name_sum_l},number of o = {name_sum_o}\n",
+      f"number of v = {name_sum_u},number of e2 = {name_sum_e2}")
+
+right_number = name_sum_t + name_sum_r + name_sum_u + name_sum_e1
+left_number = name_sum_l + name_sum_o + name_sum_v + name_sum_e2
+
+print(f"{right_number}{left_number}%")
